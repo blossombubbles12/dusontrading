@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Anchor, ArrowRight, MapPin, Phone } from "lucide-react";
+import { Anchor, ArrowRight, MapPin, Phone, Mail } from "lucide-react";
+import EmailProtected from "./EmailProtected";
 
 interface FooterProps {
   onOpenQuoteModal: () => void;
@@ -225,13 +226,17 @@ export default function Footer({ onOpenQuoteModal }: FooterProps) {
 
           <div className="space-y-3 md:text-right">
             <span className="text-[10px] uppercase tracking-[0.25em] text-[#B52F81] font-bold block">
-              DIRECT TELEPHONE INQUIRIES
+              DIRECT INQUIRIES & CONTACT
             </span>
             <div className="flex items-center gap-3 text-sm text-[#F9F6F0] md:justify-end">
               <Phone className="w-4 h-4 text-[#B52F81]" />
-              <span className="font-mono font-semibold">+62 815-6523-505</span>
+              <a href="tel:+6282223000688" className="font-mono font-semibold hover:text-[#B52F81] transition-colors">+62 8222 3000 688</a>
             </div>
-            <p className="text-[11px] text-[#DFC8D6]/60 font-light">
+            <div className="flex items-center gap-3 text-xs text-[#DFC8D6]/90 md:justify-end">
+              <Mail className="w-4 h-4 text-[#B52F81]" />
+              <EmailProtected user="contact" domain="dusontrading.com" className="text-[#DFC8D6] hover:text-[#B52F81]" />
+            </div>
+            <p className="text-[11px] text-[#DFC8D6]/60 font-light pt-1">
               International Trade & Commercial Logistics Desk · Jakarta (UTC+7)
             </p>
           </div>

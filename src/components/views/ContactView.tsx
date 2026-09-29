@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ChevronRight, MapPin, Phone, Mail, Clock, Send, CheckCircle2, Building2 } from "lucide-react";
 import { useQuoteModal } from "@/components/GlobalLayout";
+import EmailProtected from "@/components/EmailProtected";
 
 export default function ContactView() {
   const { openQuoteModal } = useQuoteModal();
@@ -55,7 +56,9 @@ export default function ContactView() {
                   <Mail className="w-5 h-5 text-[#7f1b59] dark:text-[#B52F81] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong className="block font-semibold text-[#1A0614] dark:text-[#F9F6F0]">Electronic Inquiries</strong>
-                    <span className="text-[#5C3D52] dark:text-[#DFC8D6]/70 font-light">trade@dusongroup.com · export@dusongroup.com</span>
+                    <div className="text-[#5C3D52] dark:text-[#DFC8D6]/70 font-normal">
+                      <EmailProtected user="contact" domain="dusontrading.com" />
+                    </div>
                   </div>
                 </div>
 
@@ -63,7 +66,7 @@ export default function ContactView() {
                   <Phone className="w-5 h-5 text-[#7f1b59] dark:text-[#B52F81] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong className="block font-semibold text-[#1A0614] dark:text-[#F9F6F0]">Commercial Switchboard</strong>
-                    <span className="text-[#5C3D52] dark:text-[#DFC8D6]/70 font-light">+62 815-6523-505 (Jakarta HQ Desk)</span>
+                    <a href="tel:+6282223000688" className="text-[#5C3D52] dark:text-[#DFC8D6]/70 font-normal hover:text-[#7f1b59] dark:hover:text-[#B52F81] transition-colors">+62 8222 3000 688 (Jakarta HQ Desk)</a>
                   </div>
                 </div>
               </div>

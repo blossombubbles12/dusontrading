@@ -98,34 +98,34 @@ export default function AboutView() {
 
   const milestones = [
     {
-      year: "2008",
+      year: "2022",
       title: "Company Foundation in Jakarta",
       location: "Jakarta, Indonesia",
-      desc: "DUSON TRADING GROUP PT. was established with a focus on domestic agricultural aggregation and spice procurement across the Indonesian archipelago."
+      desc: "DUSON TRADING GROUP PT. was established in Jakarta, focusing on direct origin agricultural aggregation and high-grade spice procurement across Indonesia."
     },
     {
-      year: "2012",
+      year: "2023",
       title: "International Export Expansion",
       location: "ASEAN & Middle East",
-      desc: "Secured institutional export licenses and established primary shipping corridors to Singapore, Malaysia, UAE, and Saudi Arabia for premium Indonesian nutmeg."
+      desc: "Secured institutional export licenses and established direct shipping corridors to Singapore, Malaysia, UAE, and Saudi Arabia for premium Indonesian nutmeg and spices."
     },
     {
-      year: "2016",
-      title: "European Trade Desk & Compliance",
-      location: "Rotterdam & Hamburg Network",
-      desc: "Achieved full EU compliance certification (ISO 22000, HACCP) and formed long-term supply partnerships with prominent European food processors and distributors."
+      year: "2024",
+      title: "Global Compliance & Quality Standards",
+      location: "ISO 22000 & HACCP Certified",
+      desc: "Achieved international food safety compliance certifications and expanded supply partnerships with food processors across Europe and North America."
     },
     {
-      year: "2019",
-      title: "Commodity Portfolio Diversification",
+      year: "2025",
+      title: "Commodity Portfolio & Cold-Chain Integration",
       location: "Mediterranean & Southeast Asia",
-      desc: "Expanded operations into Mediterranean virgin olive oils and export-grade commercial vegetables, establishing high-capacity bonded cold-storage infrastructure."
+      desc: "Expanded commercial trade desk into Mediterranean virgin olive oils and fresh export vegetables, backed by bonded port cold-storage logistics."
     },
     {
-      year: "2024+",
-      title: "Global Integrated Trading Network",
+      year: "2026+",
+      title: "Integrated International Trade Operations",
       location: "30+ Export Destinations",
-      desc: "Now managing over 50,000 metric tons of certified commodities annually with trade desks in Jakarta, handling ocean freight, customs, and bespoke supply programs."
+      desc: "Managing high-volume certified commodity shipments annually with full ocean freight, customs clearance, and institutional trade execution."
     }
   ];
 
@@ -205,7 +205,7 @@ export default function AboutView() {
             >
               <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#F8EDF4] dark:bg-[#220819] border border-[#7f1b59]/30 dark:border-[#B52F81]/30 text-[#7f1b59] dark:text-[#B52F81] text-xs font-bold uppercase tracking-[0.2em]">
                 <Globe2 className="w-4 h-4" />
-                <span>Established 2008 · Jakarta, Indonesia</span>
+                <span>Established 2022 · Jakarta, Indonesia</span>
               </div>
 
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-[#1A0614] dark:text-[#F9F6F0] leading-[1.12]">
@@ -312,10 +312,10 @@ export default function AboutView() {
             
             <div className="pt-6 lg:pt-0 lg:px-6 flex flex-col items-center lg:items-start text-center lg:text-left">
               <div className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
-                <AnimatedCounter target={16} suffix="+" start={statsInView} />
+                <AnimatedCounter target={4} suffix="+" start={statsInView} />
               </div>
               <div className="text-xs font-bold uppercase tracking-[0.2em] text-[#B52F81] mt-2">Years of Trade Excellence</div>
-              <div className="text-xs text-white/70 font-light mt-1 max-w-xs">Continuous trading operations since 2008 headquartered in Jakarta.</div>
+              <div className="text-xs text-white/70 font-light mt-1 max-w-xs">Continuous trading operations since 2022 headquartered in Jakarta.</div>
             </div>
 
             <div className="pt-6 lg:pt-0 lg:px-6 flex flex-col items-center lg:items-start text-center lg:text-left">

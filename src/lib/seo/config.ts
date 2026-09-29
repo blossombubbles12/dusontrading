@@ -2,14 +2,14 @@ export const SITE_CONFIG = {
   name: "DUSON TRADING GROUP PT.",
   shortName: "DUSON",
   legalName: "DUSON TRADING GROUP PT.",
-  url: "https://www.dusongroup.com",
+  url: "https://www.dusontrading.com",
   defaultTitle: "DUSON TRADING GROUP PT. | Global Food Commodity Trading & Logistics",
   titleTemplate: "%s | DUSON TRADING GROUP PT.",
   description:
     "DUSON TRADING GROUP PT. is a premier international B2B merchant specializing in agricultural commodity sourcing, quality grading, global food exports, and maritime logistics. Headquartered in Jakarta, Indonesia.",
-  telephone: "+62 815-6523-505",
-  email: "trade@dusongroup.com",
-  exportEmail: "export@dusongroup.com",
+  telephone: "+62 8222 3000 688",
+  email: "contact@dusontrading.com",
+  exportEmail: "contact@dusontrading.com",
   address: {
     streetAddress: "Jalan Ks. Tubun No. 30, RT.5/RW.2, Kota Bambu Selatan, Palmerah, RT.5, RT.8/RW.2, Kota Bambu Sel., Kec. Palmerah",
     addressLocality: "Kota Jakarta Barat",
@@ -21,7 +21,7 @@ export const SITE_CONFIG = {
     latitude: "-6.1885",
     longitude: "106.8016",
   },
-  foundingYear: "2008",
+  foundingYear: "2022",
   priceRange: "$$$$",
   currenciesAccepted: "USD, EUR, SGD, IDR",
   paymentAccepted: "Letter of Credit (LC at Sight), Telegraphic Transfer (TT)",
@@ -75,7 +75,7 @@ export const PAGES_SEO: Record<string, PageSEO> = {
   about: {
     title: "About DUSON | Corporate Overview & Global Trading Heritage",
     description:
-      "Learn about DUSON TRADING GROUP PT., established in 2008 in Jakarta. Discover our 16-year journey, 6 operational pillars, leadership governance, and global trade standards.",
+      "Learn about DUSON TRADING GROUP PT., established in 2022 in Jakarta. Discover our 4-year journey, 6 operational pillars, leadership governance, and global trade standards.",
     path: "/about",
     keywords: [
       "about DUSON",
@@ -378,7 +378,7 @@ export const PAGES_SEO: Record<string, PageSEO> = {
   contact: {
     title: "Contact Commercial Desk | Jakarta HQ Trade & Procurement Office",
     description:
-      "Contact DUSON TRADING GROUP PT. in Jakarta, Indonesia (+62 815-6523-505). Request commodity quotations, freight schedules, and technical specifications.",
+      "Contact DUSON TRADING GROUP PT. in Jakarta, Indonesia (+62 8222 3000 688). Request commodity quotations, freight schedules, and technical specifications.",
     path: "/contact",
     keywords: [
       "contact DUSON trading",
