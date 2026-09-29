@@ -24,8 +24,8 @@ export const metadata: Metadata = constructMetadata("home");
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FBF9F5" },
-    { media: "(prefers-color-scheme: dark)", color: "#0B241B" },
+    { media: "(prefers-color-scheme: light)", color: "#FCF9FB" },
+    { media: "(prefers-color-scheme: dark)", color: "#0D0209" },
   ],
   width: "device-width",
   initialScale: 1,
@@ -43,11 +43,26 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${outfit.variable} ${plusJakarta.variable} scroll-smooth antialiased`}
     >
       <head>
         <link rel="icon" href="/images/dusonicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/images/dusonicon.png" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                var theme = localStorage.getItem('duson_theme');
+                if (theme === 'dark') {
+                  document.documentElement.classList.add('dark');
+                } else {
+                  document.documentElement.classList.remove('dark');
+                }
+              } catch (e) {}
+            `,
+          }}
+        />
         <JsonLd data={[organizationSchema, websiteSchema]} />
       </head>
       <body className="font-sans min-h-screen flex flex-col">

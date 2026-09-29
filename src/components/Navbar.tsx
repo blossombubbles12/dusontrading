@@ -550,13 +550,22 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-40 bg-white dark:bg-[#0D0209] lg:hidden pt-24 px-6 pb-12 overflow-y-auto flex flex-col justify-between"
+            className="fixed inset-0 z-40 bg-[#FCF9FB] dark:bg-[#0D0209] text-[#1A0614] dark:text-[#F9F6F0] lg:hidden pt-24 px-6 pb-12 overflow-y-auto flex flex-col justify-between"
           >
             <div className="space-y-6">
               
-              <div className="flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-[#7f1b59] dark:text-[#B52F81] border-b border-[#7f1b59]/20 pb-4 font-bold">
-                <Globe2 className="w-4 h-4" />
-                <span>JAKARTA · INDONESIA</span>
+              <div className="flex items-center justify-between text-xs uppercase tracking-[0.25em] text-[#7f1b59] dark:text-[#B52F81] border-b border-[#7f1b59]/20 pb-4 font-bold">
+                <div className="flex items-center gap-2">
+                  <Globe2 className="w-4 h-4" />
+                  <span>JAKARTA · INDONESIA</span>
+                </div>
+                <button
+                  onClick={toggleTheme}
+                  className="flex items-center gap-1.5 px-3 py-1 rounded-full border border-[#7f1b59]/30 dark:border-[#B52F81]/30 bg-[#F8EDF4] dark:bg-[#220819] text-[#1A0614] dark:text-[#F9F6F0] text-[10px] uppercase font-bold tracking-wider"
+                >
+                  {theme === "light" ? <Moon className="w-3.5 h-3.5" /> : <Sun className="w-3.5 h-3.5 text-[#B52F81]" />}
+                  <span>{theme === "light" ? "Dark Mode" : "Light Mode"}</span>
+                </button>
               </div>
 
               {/* Accordion Categories */}
