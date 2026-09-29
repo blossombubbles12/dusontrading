@@ -55,8 +55,8 @@ export default function ContactSection() {
                 <div>
                   <span className="text-[10px] uppercase tracking-widest text-[#7f1b59] dark:text-[#B52F81] font-bold block">Headquarters</span>
                   <h4 className="font-serif text-xl text-[#1A0614] dark:text-[#F9F6F0]">Jakarta, Indonesia</h4>
-                  <p className="text-xs text-[#5C3D52] dark:text-[#DFC8D6]/60 font-normal dark:font-light mt-1">
-                    Central Business District, Jakarta · PT. Corporate Register
+                  <p className="text-xs text-[#5C3D52] dark:text-[#DFC8D6]/70 font-normal dark:font-light mt-1 leading-relaxed">
+                    Jalan Ks. Tubun No. 30, Kota Bambu Selatan, Palmerah, Jakarta Barat 11420
                   </p>
                 </div>
               </div>

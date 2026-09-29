@@ -41,11 +41,12 @@ export default function ContactView() {
                 <div className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-[#220819] border border-[#7f1b59]/20">
                   <MapPin className="w-5 h-5 text-[#7f1b59] dark:text-[#B52F81] flex-shrink-0 mt-0.5" />
                   <div>
-                    <strong className="block font-semibold text-[#1A0614] dark:text-[#F9F6F0]">Global Head Office</strong>
+                    <strong className="block font-semibold text-[#1A0614] dark:text-[#F9F6F0]">Corporate Headquarters</strong>
                     <span className="text-[#5C3D52] dark:text-[#DFC8D6]/70 font-light leading-relaxed">
                       DUSON TRADING GROUP PT.<br />
-                      Financial Center Tower, Level 28<br />
-                      Jl. Jend. Sudirman Kav. 52-53, Jakarta Selatan 12190, Indonesia
+                      Jalan Ks. Tubun No. 30, RT.5/RW.2, Kota Bambu Selatan, Palmerah,<br />
+                      RT.5, RT.8/RW.2, Kota Bambu Sel., Kec. Palmerah,<br />
+                      Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11420, Indonesia
                     </span>
                   </div>
                 </div>
@@ -62,7 +63,7 @@ export default function ContactView() {
                   <Phone className="w-5 h-5 text-[#7f1b59] dark:text-[#B52F81] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong className="block font-semibold text-[#1A0614] dark:text-[#F9F6F0]">Commercial Switchboard</strong>
-                    <span className="text-[#5C3D52] dark:text-[#DFC8D6]/70 font-light">+62 21 520 8890 (Jakarta HQ Desk)</span>
+                    <span className="text-[#5C3D52] dark:text-[#DFC8D6]/70 font-light">+62 815-6523-505 (Jakarta HQ Desk)</span>
                   </div>
                 </div>
               </div>

@@ -11,9 +11,9 @@ export const SITE_CONFIG = {
   email: "trade@dusongroup.com",
   exportEmail: "export@dusongroup.com",
   address: {
-    streetAddress: "Jalan Ks. Tubun No. 30, RT.5/RW.2, Kota Bambu Selatan, Palmerah",
-    addressLocality: "Jakarta Barat",
-    addressRegion: "DKI Jakarta",
+    streetAddress: "Jalan Ks. Tubun No. 30, RT.5/RW.2, Kota Bambu Selatan, Palmerah, RT.5, RT.8/RW.2, Kota Bambu Sel., Kec. Palmerah",
+    addressLocality: "Kota Jakarta Barat",
+    addressRegion: "Daerah Khusus Ibukota Jakarta",
     postalCode: "11420",
     addressCountry: "ID",
   },

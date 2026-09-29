@@ -215,9 +215,9 @@ export default function Footer({ onOpenQuoteModal }: FooterProps) {
             <div className="flex items-start gap-3 text-xs text-[#DFC8D6]/80 font-light leading-relaxed">
               <MapPin className="w-4 h-4 text-[#B52F81] shrink-0 mt-0.5" />
               <span>
-                Jalan Ks. Tubun No. 30, RT.5/RW.2, <br />
-                Kota Bambu Selatan, Palmerah, <br />
-                Jakarta Barat, DKI Jakarta 11420, <br />
+                Jalan Ks. Tubun No. 30, RT.5/RW.2, Kota Bambu Selatan, Palmerah, <br />
+                RT.5, RT.8/RW.2, Kota Bambu Sel., Kec. Palmerah, <br />
+                Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11420, <br />
                 Indonesia
               </span>
             </div>
