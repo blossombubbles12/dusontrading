@@ -95,10 +95,10 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
             <Image
               src="/images/logo.png"
               alt="DUSON"
-              width={220}
-              height={48}
+              width={280}
+              height={64}
               priority
-              className="h-9 sm:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-12 sm:h-14 lg:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 
