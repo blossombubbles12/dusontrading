@@ -85,25 +85,25 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
             : "bg-white/90 dark:bg-[#0D0209]/90 backdrop-blur-sm py-4 border-b border-[#7f1b59]/15 dark:border-[#B52F81]/15"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           
           {/* Brand Logo */}
           <Link
             href="/"
-            className="group flex items-center focus:outline-none shrink-0"
+            className="group flex items-center justify-start focus:outline-none shrink-0 mr-4 lg:mr-8"
           >
             <Image
               src="/images/logo.png"
               alt="DUSON"
-              width={280}
-              height={64}
+              width={240}
+              height={52}
               priority
-              className="h-12 sm:h-14 lg:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-10 sm:h-12 lg:h-13 w-auto object-contain object-left transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-7">
+          <nav className="hidden lg:flex items-center gap-4 xl:gap-7">
             {/* Company Mega Menu Trigger */}
             <div
               className="relative py-2"
